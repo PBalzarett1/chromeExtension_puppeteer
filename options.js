@@ -10,7 +10,7 @@ function initializeEventListeners() {
 
 function setupButtonListener(button, event) {
     const btn = document.getElementById(button + 'Btn');
-    btn.addEventListener('click', event);
+    btž.addEventListener('click', event);
 }
 
 function updateShortcutsList() {
